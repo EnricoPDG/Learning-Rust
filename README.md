@@ -9,4 +9,4 @@
 
 ## For now on is just anotations.
 
-1. [How cargo works](anotations/cargo.md)
+1. [How Cargo works](anotations/cargo.md)

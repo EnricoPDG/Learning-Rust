@@ -1,6 +1,6 @@
 Decoding this code:
-`
-use std::io;
+
+<code>use std::io;
 
 fn main() {
     println!("Guess the number!");
@@ -14,8 +14,7 @@ fn main() {
         .expect("Failed to read line");
 
     println!("You guessed: {}", guess);
-}
-`
+}</code>
 
 The library io comes from the standard library, knows as `std`, to bring the to the code use `std::io;`, the io library contains many thinks I will need when doing input and output. The core part of the module is te **Read** and **Write** traits.
 
@@ -26,10 +25,8 @@ The *main* functions is the entry point into the program:
 `fn main() {}`
 
 `println!` is a macro that print a string to the screen:
-`
-println!("Guess the number!");
-println!("Please input your guess");
-`
+`println!("Guess the number!");
+println!("Please input your guess");`
 
 **Storing Values with Variable**
 

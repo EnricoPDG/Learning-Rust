@@ -1,5 +1,6 @@
 Decoding this code:
-`use std::io;
+`
+use std::io;
 
 fn main() {
     println!("Guess the number!");
@@ -13,7 +14,8 @@ fn main() {
         .expect("Failed to read line");
 
     println!("You guessed: {}", guess);
-}`
+}
+`
 
 The library io comes from the standard library, knows as `std`, to bring the to the code use `std::io;`, the io library contains many thinks I will need when doing input and output. The core part of the module is te **Read** and **Write** traits.
 
@@ -69,6 +71,7 @@ So *.expect* is expecting a error and if expect is ok they don't run the code *"
 **Printing Values with println! Placeholders**
 
 This line prints the string that now contains the user’s input. The {} set of curly brackets is a placeholder: think of {} as little crab pincers that hold a value in place. You can print more than one value using curly brackets: the first set of curly brackets holds the first value listed after the format string, the second set holds the second value, and so on. Printing multiple values in one call to println! would look like this:
+
 `
 let x = 5;
 let y = 10;

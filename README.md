@@ -9,8 +9,6 @@
 
 ## For now on is just anotations.
 
-<<<<<<< HEAD
+
 1. [How Cargo works](anotations/cargo.md)
-=======
-1. [How cargo works](anotations/cargo.md)
->>>>>>> a762ffb7868ed7da496b3ae5cec6e179fac77e91
+2. [Guessing Game](anotations/guessing_game.md)

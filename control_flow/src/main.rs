@@ -1,5 +1,8 @@
 fn main() {
    for_();
+   loop_();
+   if_();
+   other_loop();
 }
 
 fn loop_(){

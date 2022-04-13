@@ -1,7 +1,12 @@
 fn main() {
     let x = plus_one(1);
 
-    println!("value of x: {}", x)
+    println!("value of x: {}", x);
+    another_function(32);
+    print_labeled_mesuarement(32, 'x');
+    five();
+    expression();
+
 }
 
 fn another_function(x: i32) {

@@ -2,6 +2,7 @@ use std::io;
 
 fn main() {
     test_array();
+    data_type();
 }
 
 fn data_type() {

@@ -5,7 +5,7 @@ fn main() {
 
     let mut temperature = String::new();
 
-    println!("Enter '1' if you want convert Fahrenheit to Celsius or '2' if you want to convert Celsius to Fahrenheir.");
+    println!("Enter 1 if you want convert Fahrenheit to Celsius or 2 if you want to convert Celsius to Fahrenheir:");
 
     io::stdin()
         .read_line(&mut temperature)
@@ -25,10 +25,10 @@ fn main() {
 
     let result: f32;
     if temperature == 1 {
-        result = 1.8 * _value + 32.0;
-        println!("{}", result)
-    } else {
         result = (_value - 32.0) / 1.8;
+        println!("{}", result) 
+    } else {
+        result = 1.8 * _value + 32.0;
         println!("{}", result)
     }
 }
